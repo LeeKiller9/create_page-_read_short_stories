@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 150px;
+    width: 100%;
+    background-image: url("https://anhdepfree.com/wp-content/uploads/2020/04/hinh-nen-dong-naruto-danh-nhau.gif");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    color: indianred;
+    font-size: 50px;
+}
+
+#week_trend_title {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+#week_trend {
+    margin-top: 20px;
+    border-style: groove;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.content {
+    width: 210px;
+    min-width: 0;
+    height: 280px;
+    text-align: center;
+}
+
+.picName {
+    font-size: 20px;
+    width: 200px;
+    min-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
